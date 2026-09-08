@@ -1,10 +1,10 @@
 import requests
-from utils.api_client import url
+from utils.api_client import BASE_URL
 
 def test_cart():
 
-   """ url = https://fakestoreapi.com/carts 
-   """
+    
+   
 
     payload = {
         "userId": 7,
@@ -33,7 +33,7 @@ def test_cart():
     
     """
 
-    response=requests.post(url, json=payload)
+    response=requests.post(f"{BASE_URL}/carts", json=payload)
 
     
     

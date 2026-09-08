@@ -1,10 +1,11 @@
 import requests, pytest
+from utils.api_client import BASE_URL
 
-
+MOD_URL = f"{BASE_URL}/products/category/"
 
 
 def test_list_products():
-    response=requests.get("https://fakestoreapi.com/products?limit=5")
+    response=requests.get(f"{BASE_URL}/products?limit=5")
 
     
 
@@ -17,9 +18,10 @@ def test_list_products():
     assert len(products) == 5
 
 
+
 @pytest.mark.parametrize("category", [
-    ("https://fakestoreapi.com/products/category/electronics"), ("https://fakestoreapi.com/products/category/jewelery"), 
-    ("https://fakestoreapi.com/products/category/men's clothing"), ("https://fakestoreapi.com/products/category/women's clothing")
+    (f"{MOD_URL}electronics"), (f"{MOD_URL}jewelery"), 
+    (f"{MOD_URL}men's clothing"), (f"{MOD_URL}women's clothing")
 ])
 
 
