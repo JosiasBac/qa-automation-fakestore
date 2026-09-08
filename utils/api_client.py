@@ -3,5 +3,5 @@ import os
 
 
 load_dotenv()
-url = os.getenv("BASE_URL")
-print(url)
+BASE_URL = os.getenv("BASE_URL")
+
