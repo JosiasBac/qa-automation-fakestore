@@ -1,0 +1,13 @@
+[
+  "tests/test_cart.py::test_cart",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.com/products/category/electronics]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.com/products/category/jewelery]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.com/products/category/men's clothing]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.com/products/category/women's clothing]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.comelectronics]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.comjewelery]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.commen's clothing]",
+  "tests/test_products.py::test_category_products[https://fakestoreapi.comwomen's clothing]",
+  "tests/test_products.py::test_list_products",
+  "tests/test_products.py::test_listar_productos_con_limite"
+]

@@ -1,0 +1,6 @@
+{
+  "tests/test_products.py::test_category_products[https://fakestoreapi.comelectronics]": true,
+  "tests/test_products.py::test_category_products[https://fakestoreapi.comjewelery]": true,
+  "tests/test_products.py::test_category_products[https://fakestoreapi.commen's clothing]": true,
+  "tests/test_products.py::test_category_products[https://fakestoreapi.comwomen's clothing]": true
+}
